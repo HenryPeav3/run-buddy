@@ -38,7 +38,7 @@
   }
   
   header nav ul li a {
-    margin: 0 20px;
+    margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
   }
@@ -70,7 +70,7 @@
       padding: 60px;
   }
   
-  /* Homepage hero */
+  /* Hero Style Start */
   .hero {
     background-image: url("../css/images/hero-bg.jpg");
     height: 600px;
@@ -137,6 +137,32 @@
       text-align: center;
       background: #fce138;
   }
+
+  .steps div {
+    margin-bottom: 80px
+  }
+
+  .steps img {
+    width: 15%;
+    margin: 10px 0;
+  }
+  
+  .steps h3 {
+    color: #024e76;
+    font-size: 46;
+    margin-top: 10px;
+  }
+
+  .steps p {
+    color: #39a6b2;
+    font-size: 23px;
+  }
+
+  .steps span {
+    color: #39a6b2;
+    font-size: 23px;
+  }
+
   .section-title {
       font-size: 55px;
       color: #024e76;
@@ -152,30 +178,6 @@
 
   .secondary-border {
       border-color: #39a6b2;
-  }
-  
-    .steps div {
-      margin-bottom: 80px;
-  }
-  
-  .steps img {
-      width: 15%;
-      margin: 10px 0;
-  }
-  
-  .steps h3 {
-      color: #024e76;
-      font-size: 46px;
-      margin-top: 10px;
-  }
-  
-  .steps p {
-      color: #39a6b2;
-      font-size: 23px;
-  }
-  
-  .steps span {
-      font-size: 38px;
   }
   
   .trainers {
@@ -225,7 +227,7 @@
     line-height: 1.3;
   }
   
-  }.section-titel {
+  .section-titel {
     font-size: 55px;
     display: inline-block;
     padding: 0 100px 20px 3px solid;
@@ -261,7 +263,8 @@
     font-size: 32px;
   }
   
-  .contact-info p, .contact-info address {
+  .contact-info p, 
+  .contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 20px;
